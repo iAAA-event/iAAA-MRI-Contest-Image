@@ -25,7 +25,7 @@ pip install -e .
 
 ## `submission.py`
 
-We create a sample `submission.py` file, you script should follow these arguments to execute properly.
+We create a sample `submission.py` file, your script should follow these arguments to execute properly.
 
 ### File
 
