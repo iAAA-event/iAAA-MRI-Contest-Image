@@ -57,6 +57,8 @@ dill = "^0.3.8"
 dask = "^2024.7.0"
 cachetools = "^5.4.0"
 tensorflow-datasets = "^4.9.6"
+vision-transformer-pytorch = "^1.0.3"
+joblib = "^1.4.2"
 
 
 [[tool.poetry.source]]

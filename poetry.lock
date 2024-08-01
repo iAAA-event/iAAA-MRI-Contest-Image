@@ -2791,6 +2791,7 @@ description = "Nvidia JIT LTO Library"
 optional = false
 python-versions = ">=3"
 files = [
+    {file = "nvidia_nvjitlink_cu12-12.5.82-py3-none-manylinux2014_aarch64.whl", hash = "sha256:98103729cc5226e13ca319a10bbf9433bbbd44ef64fe72f45f067cacc14b8d27"},
     {file = "nvidia_nvjitlink_cu12-12.5.82-py3-none-manylinux2014_x86_64.whl", hash = "sha256:f9b37bc5c8cf7509665cb6ada5aaa0ce65618f2332b7d3e78e9790511f111212"},
     {file = "nvidia_nvjitlink_cu12-12.5.82-py3-none-win_amd64.whl", hash = "sha256:e782564d705ff0bf61ac3e1bf730166da66dd2fe9012f111ede5fc49b64ae697"},
 ]
@@ -5475,6 +5476,21 @@ socks = ["pysocks (>=1.5.6,!=1.5.7,<2.0)"]
 zstd = ["zstandard (>=0.18.0)"]
 
 [[package]]
+name = "vision-transformer-pytorch"
+version = "1.0.3"
+description = "VisionTransformer implemented in PyTorch."
+optional = false
+python-versions = ">=3.5.0"
+files = [
+    {file = "vision_transformer_pytorch-1.0.3-py2.py3-none-any.whl", hash = "sha256:0652e15527e87d4ce34d5e07153adf596f7570ccf05b45ec274c4968f3311fee"},
+    {file = "vision_transformer_pytorch-1.0.3.tar.gz", hash = "sha256:820597ecc56f02362c82e74f0a9e4434052c2166383bac8535b78162c485bf55"},
+]
+
+[package.dependencies]
+numpy = "*"
+torch = ">=1.5.0"
+
+[[package]]
 name = "wasabi"
 version = "1.1.3"
 description = "A lightweight console printing and formatting toolkit"
@@ -5750,4 +5766,4 @@ test = ["big-O", "importlib-resources", "jaraco.functools", "jaraco.itertools", 
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10, <3.11"
-content-hash = "782aa3947ea180e8dda64015dad10347de507866261e623848ae7864a403710e"
+content-hash = "415027517be4f9c921b05ce7fff33466b1a5825b2b31a35ce29a4fbbe511c3db"
