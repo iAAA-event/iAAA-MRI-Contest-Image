@@ -59,6 +59,10 @@ cachetools = "^5.4.0"
 tensorflow-datasets = "^4.9.6"
 vision-transformer-pytorch = "^1.0.3"
 joblib = "^1.4.2"
+ultralytics = "^8.2.71"
+pipreqs = "^0.5.0"
+pip-check-reqs = "^2.5.3"
+xgboost = "^2.1.1"
 
 
 [[tool.poetry.source]]
