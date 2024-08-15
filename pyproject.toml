@@ -63,6 +63,8 @@ ultralytics = "^8.2.71"
 pipreqs = "^0.5.0"
 pip-check-reqs = "^2.5.3"
 xgboost = "^2.1.1"
+antspyx = "^0.5.3"
+torchio = "^0.19.9"
 
 
 [[tool.poetry.source]]
