@@ -101,6 +101,41 @@ files = [
 ]
 
 [[package]]
+name = "antspyx"
+version = "0.5.3"
+description = "A fast medical imaging analysis library in Python with algorithms for registration, segmentation, and more."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "antspyx-0.5.3-cp310-cp310-macosx_12_0_x86_64.whl", hash = "sha256:1a395b525456b49df34e2aad69a1c4e4444e5ab6ca81b7ea7bfb958b9f872372"},
+    {file = "antspyx-0.5.3-cp310-cp310-macosx_14_0_arm64.whl", hash = "sha256:468b2f1e39120f333a1d8254665d91a9b5e77fc1adee963b1a297fa91bacb3e1"},
+    {file = "antspyx-0.5.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:69363bdcc03cfd33aa7efa02c530d82a3cb880328176c21f9988cfab17f05ca7"},
+    {file = "antspyx-0.5.3-cp310-cp310-win_amd64.whl", hash = "sha256:99f962471342ae17bb6e67e8f97b6194e7461d9ca4ae89b6661497b1a6325445"},
+    {file = "antspyx-0.5.3-cp311-cp311-macosx_10_14_x86_64.whl", hash = "sha256:cf4c5f378037c346082189be1ec051b35d1a78de15a39ee9dd4f021b2eea7dde"},
+    {file = "antspyx-0.5.3-cp311-cp311-macosx_12_0_x86_64.whl", hash = "sha256:3fbbcdd78c46e3f7b9ce2d9aafd1d7851b1894b8da7658e88f0dc4f1e560038c"},
+    {file = "antspyx-0.5.3-cp311-cp311-macosx_14_0_arm64.whl", hash = "sha256:3a73b6c65350b53aeed65d415604cdfa50e181b79f848824a106dab369a80dd0"},
+    {file = "antspyx-0.5.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:32ea933af5b7cdf8f320e62ade0e3ef6f455208fbcb43396c3124d4c2200f48c"},
+    {file = "antspyx-0.5.3-cp311-cp311-win_amd64.whl", hash = "sha256:2a37b3ec92c06e8593a35e3fd1679742349013860b47c3e83ebccce20ce1a463"},
+    {file = "antspyx-0.5.3-cp312-cp312-macosx_12_0_x86_64.whl", hash = "sha256:33591df37ec5953aacccfba9479724879c9b4f202dcfbfd231a355aa678ab8b7"},
+    {file = "antspyx-0.5.3-cp312-cp312-macosx_14_0_arm64.whl", hash = "sha256:b9c44f1987ae49c128ef3b585233ccb1c8a1ade00ac68c0dfb5510a65c225df3"},
+    {file = "antspyx-0.5.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:d00c8658ce5e83c3042d270548b0838aa7f283bd28718502efbb97d026fd34f2"},
+    {file = "antspyx-0.5.3-cp312-cp312-win_amd64.whl", hash = "sha256:123cc8cfde7e364feed3125e15947eb14a89171476230521433b41283a1876d1"},
+    {file = "antspyx-0.5.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:3c4ca7191a6d8057e07397f09681b5c782ee0f24586390ab387ba45a0964bf52"},
+    {file = "antspyx-0.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:359780064ed1490f4c81a549f535b74f5af97b7290f09c60d1ee73bb021a86d0"},
+    {file = "antspyx-0.5.3.tar.gz", hash = "sha256:68e3e6ece5e19f6fae0eb4d6f9f1a3e40851cef2629dd49abd7bf71d4ba15cae"},
+]
+
+[package.dependencies]
+matplotlib = "*"
+numpy = "*"
+pandas = "*"
+Pillow = "*"
+pyyaml = "*"
+requests = "*"
+statsmodels = "*"
+webcolors = "*"
+
+[[package]]
 name = "appnope"
 version = "0.1.4"
 description = "Disable App Nap on macOS >= 10.9"
@@ -797,6 +832,23 @@ files = [
     {file = "defusedxml-0.7.1-py2.py3-none-any.whl", hash = "sha256:a352e7e428770286cc899e2542b6cdaedb2b4953ff269a210103ec58f6198a61"},
     {file = "defusedxml-0.7.1.tar.gz", hash = "sha256:1bb3032db185915b62d7c6209c5a8792be6a32ab2fedacc84e01b52c51aa3e69"},
 ]
+
+[[package]]
+name = "deprecated"
+version = "1.2.14"
+description = "Python @deprecated decorator to deprecate old python classes, functions or methods."
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+files = [
+    {file = "Deprecated-1.2.14-py2.py3-none-any.whl", hash = "sha256:6fac8b097794a90302bdbb17b9b815e732d3c4720583ff1b198499d78470466c"},
+    {file = "Deprecated-1.2.14.tar.gz", hash = "sha256:e5323eb936458dccc2582dc6f9c322c852a775a27065ff2b0c4970b9d53d01b3"},
+]
+
+[package.dependencies]
+wrapt = ">=1.10,<2"
+
+[package.extras]
+dev = ["PyTest", "PyTest-Cov", "bump2version (<1)", "sphinx (<2)", "tox"]
 
 [[package]]
 name = "dill"
@@ -1528,6 +1580,20 @@ tensorflow-testing = ["keras (<3.0)", "tensorflow"]
 testing = ["InquirerPy (==0.3.4)", "Jinja2", "Pillow", "aiohttp", "fastapi", "gradio", "jedi", "minijinja (>=1.0)", "numpy", "pytest", "pytest-asyncio", "pytest-cov", "pytest-env", "pytest-rerunfailures", "pytest-vcr", "pytest-xdist", "soundfile", "urllib3 (<2.0)"]
 torch = ["safetensors", "torch"]
 typing = ["types-PyYAML", "types-requests", "types-simplejson", "types-toml", "types-tqdm", "types-urllib3", "typing-extensions (>=4.8.0)"]
+
+[[package]]
+name = "humanize"
+version = "4.10.0"
+description = "Python humanize utilities"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "humanize-4.10.0-py3-none-any.whl", hash = "sha256:39e7ccb96923e732b5c2e27aeaa3b10a8dfeeba3eb965ba7b74a3eb0e30040a6"},
+    {file = "humanize-4.10.0.tar.gz", hash = "sha256:06b6eb0293e4b85e8d385397c5868926820db32b9b654b932f57fa41c23c9978"},
+]
+
+[package.extras]
+tests = ["freezegun", "pytest", "pytest-cov"]
 
 [[package]]
 name = "idna"
@@ -3303,6 +3369,24 @@ toolz = "*"
 complete = ["blosc", "numpy (>=1.20.0)", "pandas (>=1.3)", "pyzmq"]
 
 [[package]]
+name = "patsy"
+version = "0.5.6"
+description = "A Python package for describing statistical models and for building design matrices."
+optional = false
+python-versions = "*"
+files = [
+    {file = "patsy-0.5.6-py2.py3-none-any.whl", hash = "sha256:19056886fd8fa71863fa32f0eb090267f21fb74be00f19f5c70b2e9d76c883c6"},
+    {file = "patsy-0.5.6.tar.gz", hash = "sha256:95c6d47a7222535f84bff7f63d7303f2e297747a598db89cf5c67f0c0c7d2cdb"},
+]
+
+[package.dependencies]
+numpy = ">=1.4"
+six = "*"
+
+[package.extras]
+test = ["pytest", "pytest-cov", "scipy"]
+
+[[package]]
 name = "peewee"
 version = "3.17.6"
 description = "a little orm"
@@ -5073,6 +5157,51 @@ pure-eval = "*"
 tests = ["cython", "littleutils", "pygments", "pytest", "typeguard"]
 
 [[package]]
+name = "statsmodels"
+version = "0.14.2"
+description = "Statistical computations and models for Python"
+optional = false
+python-versions = ">=3.9"
+files = [
+    {file = "statsmodels-0.14.2-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:df5d6f95c46f0341da6c79ee7617e025bf2b371e190a8e60af1ae9cabbdb7a97"},
+    {file = "statsmodels-0.14.2-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:a87ef21fadb445b650f327340dde703f13aec1540f3d497afb66324499dea97a"},
+    {file = "statsmodels-0.14.2-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:5827a12e3ede2b98a784476d61d6bec43011fedb64aa815f2098e0573bece257"},
+    {file = "statsmodels-0.14.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:10f2b7611a61adb7d596a6d239abdf1a4d5492b931b00d5ed23d32844d40e48e"},
+    {file = "statsmodels-0.14.2-cp310-cp310-musllinux_1_1_x86_64.whl", hash = "sha256:c254c66142f1167b4c7d031cf8db55294cc62ff3280e090fc45bd10a7f5fd029"},
+    {file = "statsmodels-0.14.2-cp310-cp310-win_amd64.whl", hash = "sha256:0e46e9d59293c1af4cc1f4e5248f17e7e7bc596bfce44d327c789ac27f09111b"},
+    {file = "statsmodels-0.14.2-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:50fcb633987779e795142f51ba49fb27648d46e8a1382b32ebe8e503aaabaa9e"},
+    {file = "statsmodels-0.14.2-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:876794068abfaeed41df71b7887000031ecf44fbfa6b50d53ccb12ebb4ab747a"},
+    {file = "statsmodels-0.14.2-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:7a91f6c4943de13e3ce2e20ee3b5d26d02bd42300616a421becd53756f5deb37"},
+    {file = "statsmodels-0.14.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:4864a1c4615c5ea5f2e3b078a75bdedc90dd9da210a37e0738e064b419eccee2"},
+    {file = "statsmodels-0.14.2-cp311-cp311-musllinux_1_1_x86_64.whl", hash = "sha256:afbd92410e0df06f3d8c4e7c0e2e71f63f4969531f280fb66059e2ecdb6e0415"},
+    {file = "statsmodels-0.14.2-cp311-cp311-win_amd64.whl", hash = "sha256:8e004cfad0e46ce73fe3f3812010c746f0d4cfd48e307b45c14e9e360f3d2510"},
+    {file = "statsmodels-0.14.2-cp312-cp312-macosx_10_9_x86_64.whl", hash = "sha256:eb0ba1ad3627705f5ae20af6b2982f500546d43892543b36c7bca3e2f87105e7"},
+    {file = "statsmodels-0.14.2-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:90fd2f0110b73fc3fa5a2f21c3ca99b0e22285cccf38e56b5b8fd8ce28791b0f"},
+    {file = "statsmodels-0.14.2-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:ac780ad9ff552773798829a0b9c46820b0faa10e6454891f5e49a845123758ab"},
+    {file = "statsmodels-0.14.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:55d1742778400ae67acb04b50a2c7f5804182f8a874bd09ca397d69ed159a751"},
+    {file = "statsmodels-0.14.2-cp312-cp312-musllinux_1_1_x86_64.whl", hash = "sha256:f870d14a587ea58a3b596aa994c2ed889cc051f9e450e887d2c83656fc6a64bf"},
+    {file = "statsmodels-0.14.2-cp312-cp312-win_amd64.whl", hash = "sha256:f450fcbae214aae66bd9d2b9af48e0f8ba1cb0e8596c6ebb34e6e3f0fec6542c"},
+    {file = "statsmodels-0.14.2-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:201c3d00929c4a67cda1fe05b098c8dcf1b1eeefa88e80a8f963a844801ed59f"},
+    {file = "statsmodels-0.14.2-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:9edefa4ce08e40bc1d67d2f79bc686ee5e238e801312b5a029ee7786448c389a"},
+    {file = "statsmodels-0.14.2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:29c78a7601fdae1aa32104c5ebff2e0b72c26f33e870e2f94ab1bcfd927ece9b"},
+    {file = "statsmodels-0.14.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:f36494df7c03d63168fccee5038a62f469469ed6a4dd6eaeb9338abedcd0d5f5"},
+    {file = "statsmodels-0.14.2-cp39-cp39-win_amd64.whl", hash = "sha256:8875823bdd41806dc853333cc4e1b7ef9481bad2380a999e66ea42382cf2178d"},
+    {file = "statsmodels-0.14.2.tar.gz", hash = "sha256:890550147ad3a81cda24f0ba1a5c4021adc1601080bd00e191ae7cd6feecd6ad"},
+]
+
+[package.dependencies]
+numpy = ">=1.22.3"
+packaging = ">=21.3"
+pandas = ">=1.4,<2.1.0 || >2.1.0"
+patsy = ">=0.5.6"
+scipy = ">=1.8,<1.9.2 || >1.9.2"
+
+[package.extras]
+build = ["cython (>=0.29.33)"]
+develop = ["colorama", "cython (>=0.29.33)", "cython (>=3.0.10,<4)", "flake8", "isort", "joblib", "matplotlib (>=3)", "pytest (>=7.3.0,<8)", "pytest-cov", "pytest-randomly", "pytest-xdist", "pywinpty", "setuptools-scm[toml] (>=8.0,<9.0)"]
+docs = ["ipykernel", "jupyter-client", "matplotlib", "nbconvert", "nbformat", "numpydoc", "pandas-datareader", "sphinx"]
+
+[[package]]
 name = "streamlit"
 version = "1.36.0"
 description = "A faster way to build and share data apps"
@@ -5692,6 +5821,35 @@ url = "https://download.pytorch.org/whl/cu121"
 reference = "pytorch"
 
 [[package]]
+name = "torchio"
+version = "0.19.9"
+description = "Tools for medical image processing with PyTorch"
+optional = false
+python-versions = "<3.13,>=3.8"
+files = [
+    {file = "torchio-0.19.9-py2.py3-none-any.whl", hash = "sha256:fc00fd1516cb8bad726bbe619132a465e0ea6389213abdc4ffc25f58b21a372e"},
+    {file = "torchio-0.19.9.tar.gz", hash = "sha256:69cdeff01fa06ffaed8c7ffa40a8160c0257bc6930bc41cab8132cf1115816a9"},
+]
+
+[package.dependencies]
+Deprecated = "*"
+humanize = "*"
+nibabel = "*"
+numpy = ">=1.15"
+scipy = "*"
+SimpleITK = "<2.0.dev0 || >=2.1.dev0,<2.1.1.1 || >2.1.1.1"
+torch = ">=1.1"
+tqdm = "*"
+typer = {version = "*", extras = ["all"]}
+
+[package.extras]
+all = ["black", "bump2version", "coverage", "einops", "flake8", "furo", "matplotlib", "mypy", "pandas", "parameterized", "pre-commit", "pytest", "pytest-cov", "sphinx", "sphinx-autobuild", "sphinx-copybutton", "sphinx-gallery", "sphinxext-opengraph", "tox", "types-Deprecated"]
+csv = ["pandas"]
+dev = ["black", "bump2version", "coverage", "flake8", "matplotlib", "mypy", "parameterized", "pre-commit", "pytest", "pytest-cov", "tox", "types-Deprecated"]
+doc = ["einops", "furo", "matplotlib", "sphinx", "sphinx-autobuild", "sphinx-copybutton", "sphinx-gallery", "sphinxext-opengraph"]
+plot = ["matplotlib"]
+
+[[package]]
 name = "torchsummary"
 version = "1.5.1"
 description = "Model summary in PyTorch similar to `model.summary()` in Keras"
@@ -6116,6 +6274,21 @@ typer = ">=0.3.0,<1.0.0"
 wasabi = ">=0.9.1,<1.2.0"
 
 [[package]]
+name = "webcolors"
+version = "24.8.0"
+description = "A library for working with the color formats defined by HTML and CSS."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "webcolors-24.8.0-py3-none-any.whl", hash = "sha256:fc4c3b59358ada164552084a8ebee637c221e4059267d0f8325b3b560f6c7f0a"},
+    {file = "webcolors-24.8.0.tar.gz", hash = "sha256:08b07af286a01bcd30d583a7acadf629583d1f79bfef27dd2c2c5c263817277d"},
+]
+
+[package.extras]
+docs = ["furo", "sphinx", "sphinx-copybutton", "sphinx-inline-tabs", "sphinx-notfound-page", "sphinxext-opengraph"]
+tests = ["coverage[toml]"]
+
+[[package]]
 name = "webencodings"
 version = "0.5.1"
 description = "Character encoding aliases for legacy web content"
@@ -6344,4 +6517,4 @@ test = ["big-O", "importlib-resources", "jaraco.functools", "jaraco.itertools", 
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10, <3.11"
-content-hash = "b9a894ac15b31e96d2bd34ddc56762ade145bb4f7d3eae4021f6c29bd4d67851"
+content-hash = "2da679e7bc6ec345045582fe590e43e20016a7e4ecd631591519ed64dfec6588"
