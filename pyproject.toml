@@ -76,6 +76,9 @@ keras = "2.15"
 onnxruntime = "^1.19.0"
 itk = "^5.4.0"
 dipy = "^1.9.0"
+timm = "^1.0.9"
+torch-geometric = "^2.5.3"
+torchmetrics = "^1.4.1"
 
 
 [[tool.poetry.source]]
